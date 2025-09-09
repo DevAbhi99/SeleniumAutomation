@@ -1,0 +1,58 @@
+Advanced Locators
+
+
+We are going to learn about xpaths. Xpaths are powerful locators to easily find element in automation
+
+
+There are two types of xpaths:- Absolute and Relative
+
+*Absolute xpaths*
+
+These xpaths start from the root level for ex:
+
+<html>
+<head></head>
+<body>
+<h1 id="heading"></h1>
+</body>
+</html>
+
+If I want to access h1 
+
+then to access it using relative xpath we will have /html/head/body/h1
+
+
+
+*Relative xpath*
+
+We can directly access an element using this type of xpath and dont really have to go from the root level
+
+
+//h1[@id="heading"]
+
+
+Attributes in relative xpath
+
+1) @attribute='value'
+
+2) text()='' on the basis of text
+
+3) contains()= '' on the basis of the contain of the element
+
+4) starts-with()='' if the text starts with something
+
+5) we can use index as well like if two elements have the same attributes then we can use something  like //h1[@id="heading"][1] and //h1[@id="heading"][2] to access first and the second element
+
+6) Xpath axes
+
+a) parent:: - access direct parent of the element
+
+b) child:: - access the direct child of the element
+
+c) following-sibling:: access the next sibling of the element
+
+d) preceding-sibling:: access the previous sibling of the element
+
+e) ancestor:: go up multiple levels to the root parent element
+
+f) descendant:: show all the children of the elements

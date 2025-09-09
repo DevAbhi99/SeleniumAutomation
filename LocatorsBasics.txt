@@ -1,0 +1,35 @@
+Identifiers in Autonation
+
+1) On the basis of id
+
+By.ID
+
+2) On the basis of classname
+
+By.CLASS_NAME
+
+3) On the basis of name
+
+By.TAGNAME
+
+4) on the basis of linktext
+
+By.LINK_TEXT
+
+5) on the basis of partial text
+
+When the link text is partially matching
+
+By.PARTIAL_TEXT
+
+6) CSS Selectors
+
+for class= .classname
+
+for id= #idname
+
+For element= element name
+
+
+
+
